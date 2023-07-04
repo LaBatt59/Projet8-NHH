@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.5;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.container {
+    background-color: #333;
+    padding: 10px;
+}
+
+.header {
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    padding: 15px 0;
+    background-color: #555;
+    border-radius: 99px;
+}
+
+.menu {
+    background-color: #333;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 99px;
+}
+
+.menu li a:hover {
+    background-color: #555;
+    border-radius: 999px;
+}
+
+.deconnexion {
+    background-color: #555;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 99px;
+}
+
+.content {
+    padding: 20px;
+}
+
+.formConnexion {
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.formConnexion label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.formConnexion input[type="text"],
+.formConnexion input[type="password"],
+.formConnexion input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 99px;
+}
+
+.formConnexion input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 99px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.alert {
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    justify-content: center;
+    border-radius: 99px;
+}
+
+.alert.success {
+    background-color: #8ea884;
+    border-color: #d0e9c6;
+    color: #2c5a2d;
+}
+
+.alert.error {
+    background-color: #dfa3a3;
+    border-color: #ebccd1;
+    color: #a94442;
+}
+
+.alert.warning {
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+    color: #8a6d3b;
+
+}
